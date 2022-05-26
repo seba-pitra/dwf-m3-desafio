@@ -123,8 +123,9 @@ body {
     .mi-foto {
         width: 435px;
         height: 395px;
-        left: 921px;
+        left: 65%;
         top: 221px;
+        margin-right: 94px;
     }
 }
 
