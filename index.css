@@ -15,6 +15,7 @@ body {
 
 @media(min-width: 768px) {
     .seccion-uno {
+        padding-bottom: 0px;
         height: 616px;
         width: 100%;        
     }
@@ -32,21 +33,24 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 145px;
-    margin-right: 103px;
+    margin-left: 17px;
+}
+
+@media(min-width: 768px) {
+    .header {
+           margin-left: 0;
+    }
 }
 
 .logo {
     cursor: pointer;
-    margin-top: 29px;
-    padding: 29px 50px 100px 20px;
+    margin-top: 10px;
 }
 
 @media(min-width: 768px) {
     .logo {
-           margin-top: 100px;
            margin-left: 80px;
-           padding-left: 0;
-           height: 251px;
+           height: 109px;
     }
 }
 
@@ -60,6 +64,7 @@ body {
 
 @media(min-width: 768px) {
     .presentacion {
+        margin-right: 103px;
         display: inline-flex;
         justify-content: space-between;
     }
@@ -70,13 +75,11 @@ body {
 }
 
 .burger {
-    position: absolute;
     display: grid;
     width: 36px;
     height: 32px;
-    left: 319px;
-    top: 29px;
     gap: 7px;
+    margin-right: 20px;
 }
 
 @media(min-width: 768px) {
@@ -89,8 +92,8 @@ body {
     background-color: #141414;
 }
 
+
 .bienvenida {
-    position: absolute;
     width: 291px;
     left: 42px;
     top: 162px;
@@ -103,29 +106,30 @@ body {
 
 @media(min-width: 768px) {
     .bienvenida {
-        width: 313px;
-        height: 96px;
         margin: 0;
         left: 80px;
         top: 260px;
     }
+    .bienvenida-y-foto {
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+        margin-top: 100px;
+    }
 }
 
 .mi-foto {
-    position: absolute;
     width: 318px;
     height: 300px;
-    left: 31px;
-    top: 316px;
+
 }
 
 @media(min-width: 768px) {
     .mi-foto {
         width: 435px;
         height: 395px;
-        left: 65%;
+        left: 55%;
         top: 221px;
-        margin-right: 94px;
     }
 }
 
@@ -135,12 +139,16 @@ body {
     top: 616px;
     background-color: #141414;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media(min-width: 768px) {
     .seccion-dos {
         width: 100%;
         height: 538px;
+        display: block;
     }
     
 }
@@ -148,11 +156,10 @@ body {
 @media(min-width: 768px) {
     .contenedor-parrafos-seccion-dos {
         width: 532px;
-        margin-left: 607px;
-        margin-top: 150px;
+        margin-left: 50%;
+        margin-top: 132px;
     }
 }
-
 .soy-seba {
     color: #FAFAFA;
     font-family: "Open Sans";
@@ -171,21 +178,20 @@ body {
     color: #FAFAFA;
     font-family: "Roboto";
     text-align: center;
-    position: absolute;
     margin: 41px 32px 57px;
 }
 
 @media(min-width: 768px) {
     .parrafo-seccion-dos {
-        width: 532px;
-        height: 165px;
         margin: 0;
+        margin-right: 10%;
         text-align: left;
+        margin-left: 50%;
     }
 }
 
 .check {
-    padding: 291px 147.5px;
+    height: 100px;
 }
 
 @media(min-width: 768px) {
@@ -193,15 +199,15 @@ body {
         padding: 0;
         height: 211px;
         width: 211px;
-        margin-left: 306px;
-        margin-top: -60px;
+        margin-left: 20%;
+        margin-top: -241px;
     }
 }
 
 .seccion-tres {
     background-color: #FAFAFA;
     width: 100%;
-    margin-top: 560px;
+    margin-top: 538px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -209,7 +215,6 @@ body {
 
 @media(min-width: 768px) {
     .seccion-tres {
-        height: 604px;
         width: 100%;
     }
 }
@@ -276,20 +281,24 @@ body {
     background-color: #141414;
     height: 660px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media(min-width: 768px) {
     .seccion-cuatro {
         width: 100%;
         height: 660px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
 
 
 .escribeme {
-    position: absolute;
     margin-top: 65px;
-    left: 52px;
     width: 271px;
     color: #FAFAFA;
     font-family: "Open Sans";
@@ -300,23 +309,16 @@ body {
 
 @media(min-width: 768px) {
     .escribeme {
-        margin-left: 304px;
-        margin-top: 116px;
+        margin-bottom: 450px;
         font-size: 48px;
     }
 }
 
 
 .contenedor-form {
-    padding: 0 20px;
     font-family: "Roboto";
-    font-size: 13px;   
-}
-
-@media(min-width: 768px) {
-    .contenedor-form {
-        margin-left: 652px;
-    }
+    font-size: 13px;
+    margin-top: -150px;
 }
 
 .form {
@@ -421,7 +423,7 @@ body {
         margin-left: 95px;
     }
     .contenedor-redes {
-        margin-right: 229px;
+        margin-right: 10%;
         margin-top: 95px;
     }
 }
