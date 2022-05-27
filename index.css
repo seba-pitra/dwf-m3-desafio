@@ -113,11 +113,10 @@ body {
     }
 }
     
-    .bienvenida {
+.bienvenida {
     font-family: "Open Sans";
     text-align: center;
     width: 291px;
-    margin-left: 42px;
     font-size: 48px;
     line-height: 48px;
     letter-spacing: -1px;
