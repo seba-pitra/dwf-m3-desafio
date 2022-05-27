@@ -92,8 +92,28 @@ body {
     background-color: #141414;
 }
 
+.bienvenida-y-foto {
+    display: flex;
+    flex-direction: column;
+}
 
-.bienvenida {
+@media(max-width: 767.9px) {
+    .bienvenida-y-foto {
+        align-items: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .bienvenida-y-foto {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        max-width: 100%;
+        margin-top: 100px;
+    }
+}
+    
+    .bienvenida {
     font-family: "Open Sans";
     text-align: center;
     width: 291px;
@@ -108,12 +128,6 @@ body {
         margin: 0;
         left: 80px;
         top: 260px;
-    }
-    .bienvenida-y-foto {
-        display: flex;
-        justify-content: space-around;
-        max-width: 100%;
-        margin-top: 100px;
     }
 }
 
