@@ -94,13 +94,12 @@ body {
 
 
 .bienvenida {
-    width: 291px;
-    left: 42px;
-    top: 162px;
     font-family: "Open Sans";
+    text-align: center;
+    width: 291px;
+    margin-left: 42px;
     font-size: 48px;
     line-height: 48px;
-    text-align: center;
     letter-spacing: -1px;
 }
 
@@ -121,15 +120,14 @@ body {
 .mi-foto {
     width: 318px;
     height: 300px;
-
+    margin-left: 31px;
 }
 
 @media(min-width: 768px) {
     .mi-foto {
         width: 435px;
         height: 395px;
-        left: 55%;
-        top: 221px;
+        margin: 0;
     }
 }
 
